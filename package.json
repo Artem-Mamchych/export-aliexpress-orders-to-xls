@@ -1,0 +1,26 @@
+{
+  "name": "ali-export",
+  "version": "0.0.2",
+  "description": "Nodejs app to export all aliexpress orders to excel spreadsheet or csv file",
+  "main": "ali-export.js",
+  "devDependencies": {
+    "path": "*",
+    "commander": "*",
+    "simple-enum": "*",
+    "deasync": "*",
+    "cheerio": "*",
+    "sync-request": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://git@github.com:Artem-Mamchych/export-aliexpress-orders-to-xls.git"
+  },  
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "csv"
+  ],
+  "author": "Artem Mamchych",
+  "license": "MIT"
+}
